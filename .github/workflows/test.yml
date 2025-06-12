@@ -5,7 +5,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - name: Hello
-        run: echo"Test msg"
+        run: echo "Test msg"
         
       - name: List files
         run: ls
