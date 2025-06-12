@@ -1,0 +1,11 @@
+name: Test
+on: push
+jobs:
+    first_job:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Hello
+        run: echo"Test msg"
+        
+      - name: List files
+        run: ls
