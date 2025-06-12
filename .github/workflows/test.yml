@@ -7,8 +7,11 @@ jobs:
       - name: git checkout
         uses: actions/checkout@V4
 
-      - name: Hello
-        run: echo "Test msg"
+      - name: List & Read Files
+        run: |
+            echo "Test msg"
+            ls -ltra
+            cat readme.md
         
       - name: List files
         run: ls
